@@ -7,7 +7,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"sort"
 
+	"github.com/Rican7/psx-emu-conf/internal/data"
 	"github.com/Rican7/psx-emu-conf/internal/data/source/gdocechoj2"
 )
 
@@ -27,6 +29,8 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
+
+	sort.Sort(data.AppsDefault(apps))
 
 	encoder := json.NewEncoder(os.Stdout)
 	encoder.SetIndent("", "  ")
