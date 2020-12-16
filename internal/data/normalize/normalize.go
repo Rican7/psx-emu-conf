@@ -27,6 +27,10 @@ func SerialCode(serialCode string) string {
 		normalized = fmt.Sprintf("%s-%s", serialCodeMatches[1], serialCodeMatches[2])
 	}
 
+	if !regexSerialCodeStrict.MatchString(normalized) {
+		return ""
+	}
+
 	return normalized
 }
 

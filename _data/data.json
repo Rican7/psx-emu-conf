@@ -1774,15 +1774,6 @@
   },
   {
     "Region": "NTSC-U",
-    "SerialCode": "SLUS-0",
-    "Title": "Starcon (USA) (Proto)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
     "SerialCode": "SLUS-00001",
     "Title": "Air Combat (USA)",
     "FeatureSupport": {
@@ -12405,6 +12396,14 @@
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
+    }
+  },
+  {
+    "Region": "NTSC-U",
+    "Title": "Starcon (USA) (Proto)",
+    "FeatureSupport": {
+      "AnalogSupport": 2,
+      "RumbleSupport": 2
     }
   },
   {
