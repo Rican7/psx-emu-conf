@@ -38,15 +38,16 @@ const (
 )
 
 type core struct {
-	name string
+	internalName string
+	displayName  string
 }
 
 func (c *core) EmulatorName() string {
-	return fmt.Sprintf("%s - %s", Name, c.name)
+	return fmt.Sprintf("%s - %s", Name, c.displayName)
 }
 
 func (c *core) Path(app data.App) string {
-	return pathForGameCoreOptionFile(c.name, app)
+	return pathForGameCoreOptionFile(c.internalName, app)
 }
 
 func pathForGameCoreOptionFile(coreName string, app data.App) string {
