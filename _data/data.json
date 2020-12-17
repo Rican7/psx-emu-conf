@@ -1765,15 +1765,6 @@
   },
   {
     "Region": "NTSC-U",
-    "SerialCode": "SLES-01718",
-    "Title": "Attack of the Saucerman (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
     "SerialCode": "SLUS-00001",
     "Title": "Air Combat (USA)",
     "FeatureSupport": {
