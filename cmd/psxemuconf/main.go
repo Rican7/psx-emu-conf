@@ -49,38 +49,44 @@ func main() {
 	// (we're going to need ALL the file handles that we can get... 😅)
 	dataStream.Close()
 
-	configurator := retroarch.NewPCSXReARMed()
+	configurators := []emuconf.Configurator{
+		retroarch.NewPCSXReARMed(),
+		retroarch.NewBeetlePSX(),
+		retroarch.NewBeetlePSXHW(),
+	}
 
 	for _, app := range apps {
-		filePath, err := buildConfigPath(app, configurator)
-		if err != nil {
-			fmt.Println(err)
-			continue
+		for _, configurator := range configurators {
+			filePath, err := buildConfigPath(app, configurator)
+			if err != nil {
+				fmt.Println(err)
+				continue
+			}
+
+			filePath = path.Join(defaultPathToConfigFiles, filePath)
+			fileDir := path.Dir(filePath)
+
+			err = os.MkdirAll(fileDir, 0777)
+			if err != nil {
+				fmt.Println(err)
+				continue
+			}
+
+			file, err := os.Create(filePath)
+			if err != nil {
+				fmt.Println(err)
+				continue
+			}
+
+			defer file.Close()
+
+			err = configurator.Configure(file, app)
+			if err != nil {
+				fmt.Println(err)
+			}
+
+			file.Close()
 		}
-
-		filePath = path.Join(defaultPathToConfigFiles, filePath)
-		fileDir := path.Dir(filePath)
-
-		err = os.MkdirAll(fileDir, 0777)
-		if err != nil {
-			fmt.Println(err)
-			continue
-		}
-
-		file, err := os.Create(filePath)
-		if err != nil {
-			fmt.Println(err)
-			continue
-		}
-
-		defer file.Close()
-
-		err = configurator.Configure(file, app)
-		if err != nil {
-			fmt.Println(err)
-		}
-
-		file.Close()
 	}
 }
 
