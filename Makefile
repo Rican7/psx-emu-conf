@@ -11,7 +11,8 @@ fetch-data ${DATA_OUTPUT_FILE}:
 	go run ./cmd/psxemudatafetch > "${DATA_OUTPUT_FILE}"
 
 update-data: fetch-data
-	git commit -m "Updating data via fetch" -- "${DATA_OUTPUT_FILE}"
+	@(git diff --quiet -- "${DATA_OUTPUT_FILE}" && echo "Data hasn't changed") \
+		|| git commit -m "Updating data via fetch" -- "${DATA_OUTPUT_FILE}"
 
 generate-configs ${CONFIGS_OUTPUT_DIR}:
 	go run ./cmd/psxemuconf
