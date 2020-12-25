@@ -15,6 +15,16 @@ var (
 	regexSerialCodeStrict = regexp.MustCompile(`^([A-Z]{4})-(\d{5})$`)
 )
 
+// Region takes a region string and returns a normalized variant.
+func Region(region string) string {
+	normalized := region
+
+	normalized = strings.TrimSpace(normalized)
+	normalized = strings.ToUpper(normalized)
+
+	return normalized
+}
+
 // SerialCode takes a serial code string and returns a normalized variant.
 func SerialCode(serialCode string) string {
 	normalized := serialCode

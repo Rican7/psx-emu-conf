@@ -20,7 +20,6 @@ import (
 //  - Fetch from multiple sources concurrently
 //  - Merge the results into a combined result-set
 //  - Potentially report any differences between sources?
-//  - Validate the returned apps, so we don't store useless/garbage data
 func main() {
 	ctx := context.Background()
 
@@ -30,6 +29,15 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
+	}
+
+	for i := range apps {
+		apps[i].Normalize()
+
+		if err := apps[i].Validate(); err != nil {
+			fmt.Println(err)
+			continue
+		}
 	}
 
 	sort.Sort(data.AppsDefault(apps))

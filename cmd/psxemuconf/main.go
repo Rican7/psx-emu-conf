@@ -27,7 +27,6 @@ const (
 //  - Get data path from flags
 //  - Allow for piping data via stdin
 //  - Get output path from flags
-//  - Validate the input apps
 func main() {
 	dataStream, err := os.Open(defaultPathToData)
 	if err != nil {
@@ -48,6 +47,15 @@ func main() {
 	// Close the open stream now that its been decoded, to save on file handles
 	// (we're going to need ALL the file handles that we can get... 😅)
 	dataStream.Close()
+
+	for i := range apps {
+		apps[i].Normalize()
+
+		if err := apps[i].Validate(); err != nil {
+			fmt.Println(err)
+			continue
+		}
+	}
 
 	configurators := []emuconf.Configurator{
 		retroarch.NewPCSXReARMed(),
