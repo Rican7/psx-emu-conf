@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 	"os"
-	"path"
+	"path/filepath"
 
 	"github.com/Rican7/psx-emu-conf/internal/data"
 	"github.com/Rican7/psx-emu-conf/internal/emuconf"
@@ -63,8 +63,8 @@ func main() {
 				continue
 			}
 
-			filePath = path.Join(defaultPathToConfigFiles, filePath)
-			fileDir := path.Dir(filePath)
+			filePath = filepath.Join(defaultPathToConfigFiles, filePath)
+			fileDir := filepath.Dir(filePath)
 
 			err = os.MkdirAll(fileDir, 0777)
 			if err != nil {
@@ -106,10 +106,10 @@ func buildConfigPath(app data.App, configurator emuconf.Configurator) (string, e
 		}
 	}
 
-	confPath = path.Clean(confPath)
+	confPath = filepath.Clean(confPath)
 
-	base := path.Base(confPath)
-	if base == "" || base == "." || base == "/" {
+	base := filepath.Base(confPath)
+	if base == "" || base == "." || base == string(filepath.Separator) {
 		return "", errors.New("incomplete file path")
 	}
 
