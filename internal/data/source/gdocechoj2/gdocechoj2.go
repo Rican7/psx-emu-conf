@@ -17,7 +17,6 @@ import (
 	"strconv"
 
 	"github.com/Rican7/psx-emu-conf/internal/data"
-	"github.com/Rican7/psx-emu-conf/internal/data/normalize"
 	"github.com/Rican7/psx-emu-conf/internal/data/source"
 	"google.golang.org/api/option"
 	"google.golang.org/api/sheets/v4"
@@ -160,13 +159,10 @@ func processResponse(region data.Region, valueResp *sheets.ValueRange, dataResp 
 			rumbleSupport = data.RumbleSupportUnknown
 		}
 
-		title, titleVariations := normalize.Title(row[0].(string))
-
 		app := data.App{
-			Region:          region,
-			SerialCode:      normalize.SerialCode(serialCode),
-			Title:           title,
-			TitleVariations: titleVariations,
+			Region:     region,
+			SerialCode: serialCode,
+			Title:      row[0].(string),
 
 			FeatureSupport: data.FeatureSupport{
 				AnalogSupport: analogSupport,
