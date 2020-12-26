@@ -3,12 +3,6 @@
 // Package data defines structures and mechanisms for PlayStation data.
 package data
 
-import (
-	"errors"
-
-	"github.com/Rican7/psx-emu-conf/internal/data/normalize"
-)
-
 // App defines the structure of a PlayStation software title.
 //
 // These are called "App" rather than "Game", to support non-game releases
@@ -62,40 +56,3 @@ const (
 	RumbleSupportNo                           // No support.
 	RumbleSupportYes                          // Supports rumble.
 )
-
-// Normalize modifies an app in-place by performing some normalizations on the
-// data contained within the App.
-func (a *App) Normalize() {
-	title, titleVariations := normalize.Title(a.Title)
-
-	var titleVariationsSet map[string]struct{}
-	var normalizedTitleVariations []string
-	for _, titleVariation := range append(a.TitleVariations, titleVariations...) {
-		if _, ok := titleVariationsSet[titleVariation]; !ok {
-			titleVariationsSet[titleVariation] = struct{}{}
-			normalizedTitleVariations = append(normalizedTitleVariations, titleVariation)
-		}
-	}
-
-	a.Region = Region(normalize.Region(string(a.Region)))
-	a.SerialCode = normalize.SerialCode(a.SerialCode)
-	a.Title = title
-	a.TitleVariations = normalizedTitleVariations
-}
-
-// Validate performs validations and returns an error if the data isn't valid.
-// The returned error should describe what is invalid about the data.
-func (a *App) Validate() error {
-	switch a.Region {
-	case RegionNTSCU, RegionNTSCJ, RegionPAL:
-		// Valid
-	default:
-		return errors.New("invalid Region")
-	}
-
-	if a.Title == "" {
-		return errors.New("missing Title")
-	}
-
-	return nil
-}
