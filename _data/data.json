@@ -66,15 +66,9 @@
     "Region": "NTSC-J",
     "SerialCode": "SLPS-01364",
     "Title": "DoDonPachi (Japan) (Taikenban)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-J",
-    "SerialCode": "SLPS-01364",
-    "Title": "DoDonPachi (Japan) (v1.1)",
+    "TitleVariations": [
+      "DoDonPachi (Japan) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -182,16 +176,10 @@
   {
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94167",
-    "Title": "Jet Moto 2 (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94167",
     "Title": "Jet Moto 2 - Championship Edition (USA)",
+    "TitleVariations": [
+      "Jet Moto 2 (USA)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -300,15 +288,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94194",
     "Title": "Gran Turismo (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94194",
-    "Title": "Gran Turismo (USA) (v1.1)",
+    "TitleVariations": [
+      "Gran Turismo (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -435,15 +417,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94234",
     "Title": "NFL GameDay 99 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94234",
-    "Title": "NFL GameDay 99 (USA) (v1.1)",
+    "TitleVariations": [
+      "NFL GameDay 99 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -471,15 +447,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94240",
     "Title": "Syphon Filter (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94240",
-    "Title": "Syphon Filter (USA) (v1.1)",
+    "TitleVariations": [
+      "Syphon Filter (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -534,15 +504,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94249",
     "Title": "Twisted Metal III (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94249",
-    "Title": "Twisted Metal III (USA) (v1.1)",
+    "TitleVariations": [
+      "Twisted Metal III (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -597,15 +561,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94288",
     "Title": "Disney-Pixar A Bug's Life (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94288",
-    "Title": "Disney-Pixar A Bug's Life (USA) (v1.1)",
+    "TitleVariations": [
+      "Disney-Pixar A Bug's Life (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -741,15 +699,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94353",
     "Title": "Formula 1 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94353",
-    "Title": "Formula 1 (USA) (v1.1)",
+    "TitleVariations": [
+      "Formula 1 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -840,15 +792,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94409",
     "Title": "Codename - Tenka (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94409",
-    "Title": "Codename - Tenka (USA) (v1.1)",
+    "TitleVariations": [
+      "Codename - Tenka (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -992,52 +938,14 @@
   {
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94455",
-    "Title": "Gran Turismo 2 (USA) (Arcade Mode) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94455",
-    "Title": "Gran Turismo 2 (USA) (Arcade Mode) (v1.1)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94455",
-    "Title": "Gran Turismo 2 (USA) (Simulation Mode) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94455",
-    "Title": "Gran Turismo 2 (USA) (Simulation Mode) (v1.1)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94455",
-    "Title": "Gran Turismo 2 (USA) (Simulation Mode) (v1.2)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94455",
     "Title": "Gran Turismo 2 - Music at the Speed of Sound - The Album (USA) (Bonus PlayStation Disc)",
+    "TitleVariations": [
+      "Gran Turismo 2 (USA) (Arcade Mode) (v1.0)",
+      "Gran Turismo 2 (USA) (Arcade Mode) (v1.1)",
+      "Gran Turismo 2 (USA) (Simulation Mode) (v1.0)",
+      "Gran Turismo 2 (USA) (Simulation Mode) (v1.1)",
+      "Gran Turismo 2 (USA) (Simulation Mode) (v1.2)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -1047,15 +955,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94456",
     "Title": "Disney's Tarzan (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94456",
-    "Title": "Disney's Tarzan (USA) (v1.1)",
+    "TitleVariations": [
+      "Disney's Tarzan (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -1074,15 +976,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94467",
     "Title": "Spyro - Year of the Dragon (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94467",
-    "Title": "Spyro - Year of the Dragon (USA) (v1.1)",
+    "TitleVariations": [
+      "Spyro - Year of the Dragon (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -1155,15 +1051,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94503",
     "Title": "1Xtreme (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94503",
-    "Title": "ESPN Extreme Games (USA)",
+    "TitleVariations": [
+      "ESPN Extreme Games (USA)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -1479,15 +1369,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SCUS-94604",
     "Title": "Carnage Heart (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SCUS-94604",
-    "Title": "Carnage Heart (USA) (Mission Briefing)",
+    "TitleVariations": [
+      "Carnage Heart (USA) (Mission Briefing)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -2433,15 +2317,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00116",
     "Title": "CyberSpeed (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00116",
-    "Title": "CyberSpeed (USA) (v1.1)",
+    "TitleVariations": [
+      "CyberSpeed (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -2460,15 +2338,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00119",
     "Title": "Die Hard Trilogy (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00119",
-    "Title": "Die Hard Trilogy (USA) (v1.1)",
+    "TitleVariations": [
+      "Die Hard Trilogy (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -2604,60 +2476,14 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00152",
     "Title": "Tomb Raider (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00152",
-    "Title": "Tomb Raider (USA) (v1.1)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00152",
-    "Title": "Tomb Raider (USA) (v1.2)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00152",
-    "Title": "Tomb Raider (USA) (v1.3)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00152",
-    "Title": "Tomb Raider (USA) (v1.4)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00152",
-    "Title": "Tomb Raider (USA) (v1.5)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00152",
-    "Title": "Tomb Raider (USA) (v1.6)",
+    "TitleVariations": [
+      "Tomb Raider (USA) (v1.1)",
+      "Tomb Raider (USA) (v1.2)",
+      "Tomb Raider (USA) (v1.3)",
+      "Tomb Raider (USA) (v1.4)",
+      "Tomb Raider (USA) (v1.5)",
+      "Tomb Raider (USA) (v1.6)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -2712,15 +2538,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00164",
     "Title": "Area 51 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00164",
-    "Title": "Area 51 (USA) (v1.1)",
+    "TitleVariations": [
+      "Area 51 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -2802,15 +2622,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00190",
     "Title": "Oddworld - Abe's Oddysee (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00190",
-    "Title": "Oddworld - Abe's Oddysee (USA) (v1.1)",
+    "TitleVariations": [
+      "Oddworld - Abe's Oddysee (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -2946,15 +2760,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00213",
     "Title": "Tekken 2 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00213",
-    "Title": "Tekken 2 (USA) (v1.1)",
+    "TitleVariations": [
+      "Tekken 2 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -2973,15 +2781,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00215",
     "Title": "Namco Museum Vol. 1 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00215",
-    "Title": "Namco Museum Vol. 1 (USA) (v1.1)",
+    "TitleVariations": [
+      "Namco Museum Vol. 1 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -3171,15 +2973,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00240",
     "Title": "Soul Blade (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00240",
-    "Title": "Soul Blade (USA) (v1.1)",
+    "TitleVariations": [
+      "Soul Blade (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -3216,15 +3012,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00246",
     "Title": "WWF In Your House (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00246",
-    "Title": "WWF In Your House (USA) (v1.1)",
+    "TitleVariations": [
+      "WWF In Your House (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -3450,15 +3240,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00292",
     "Title": "Suikoden (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00292",
-    "Title": "Suikoden (USA) (v1.1)",
+    "TitleVariations": [
+      "Suikoden (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -3657,15 +3441,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00330",
     "Title": "Mortal Kombat Trilogy (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00330",
-    "Title": "Mortal Kombat Trilogy (USA) (v1.1)",
+    "TitleVariations": [
+      "Mortal Kombat Trilogy (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -4125,15 +3903,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00423",
     "Title": "Street Fighter Collection (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00423",
-    "Title": "Street Fighter Collection (USA) (v1.1)",
+    "TitleVariations": [
+      "Street Fighter Collection (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -4188,24 +3960,10 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00433",
     "Title": "Fighting Force (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00433",
-    "Title": "Fighting Force (USA) (v1.1)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00433",
-    "Title": "Fighting Force (USA) (v1.2)",
+    "TitleVariations": [
+      "Fighting Force (USA) (v1.1)",
+      "Fighting Force (USA) (v1.2)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -4224,33 +3982,11 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00437",
     "Title": "Tomb Raider II - Starring Lara Croft (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00437",
-    "Title": "Tomb Raider II - Starring Lara Croft (USA) (v1.1)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00437",
-    "Title": "Tomb Raider II - Starring Lara Croft (USA) (v1.2)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00437",
-    "Title": "Tomb Raider II - Starring Lara Croft (USA) (v1.3)",
+    "TitleVariations": [
+      "Tomb Raider II - Starring Lara Croft (USA) (v1.1)",
+      "Tomb Raider II - Starring Lara Croft (USA) (v1.2)",
+      "Tomb Raider II - Starring Lara Croft (USA) (v1.3)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -4305,15 +4041,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00445",
     "Title": "NBA in the Zone '98 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00445",
-    "Title": "NBA in the Zone '98 (USA) (v1.1)",
+    "TitleVariations": [
+      "NBA in the Zone '98 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -4611,15 +4341,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00495",
     "Title": "WWF War Zone (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00495",
-    "Title": "WWF War Zone (USA) (v1.1)",
+    "TitleVariations": [
+      "WWF War Zone (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -4710,15 +4434,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00510",
     "Title": "Vigilante 8 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00510",
-    "Title": "Vigilante 8 (USA) (v1.1)",
+    "TitleVariations": [
+      "Vigilante 8 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -4745,16 +4463,10 @@
   {
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00515",
-    "Title": "Lost World, The - Jurassic Park (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00515",
     "Title": "Lost World, The - Jurassic Park - Special Edition (USA)",
+    "TitleVariations": [
+      "Lost World, The - Jurassic Park (USA)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -5025,15 +4737,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00553",
     "Title": "Alundra (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00553",
-    "Title": "Alundra (USA) (v1.1)",
+    "TitleVariations": [
+      "Alundra (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -5214,15 +4920,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00594",
     "Title": "Metal Gear Solid (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00594",
-    "Title": "Metal Gear Solid (USA) (v1.1)",
+    "TitleVariations": [
+      "Metal Gear Solid (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -5484,15 +5184,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00628",
     "Title": "Lunar - Silver Star Story Complete (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00628",
-    "Title": "Lunar - Silver Star Story Complete (USA) (The Making of)",
+    "TitleVariations": [
+      "Lunar - Silver Star Story Complete (USA) (The Making of)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -5880,15 +5574,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00681",
     "Title": "Rival Schools - United by Fate (USA) (Disc 1) (Arcade Disc)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00681",
-    "Title": "Rival Schools - United by Fate (USA) (Disc 2) (Evolution Disc)",
+    "TitleVariations": [
+      "Rival Schools - United by Fate (USA) (Disc 2) (Evolution Disc)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -5961,24 +5649,10 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00691",
     "Title": "Tomb Raider III - Adventures of Lara Croft (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00691",
-    "Title": "Tomb Raider III - Adventures of Lara Croft (USA) (v1.1)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00691",
-    "Title": "Tomb Raider III - Adventures of Lara Croft (USA) (v1.2)",
+    "TitleVariations": [
+      "Tomb Raider III - Adventures of Lara Croft (USA) (v1.1)",
+      "Tomb Raider III - Adventures of Lara Croft (USA) (v1.2)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -6060,15 +5734,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00706",
     "Title": "Tenchu - Stealth Assassins (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00706",
-    "Title": "Tenchu - Stealth Assassins (USA) (v1.1)",
+    "TitleVariations": [
+      "Tenchu - Stealth Assassins (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -6591,15 +6259,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00785",
     "Title": "Tiger Woods 99 PGA Tour Golf (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00785",
-    "Title": "Tiger Woods 99 PGA Tour Golf (USA) (v1.1)",
+    "TitleVariations": [
+      "Tiger Woods 99 PGA Tour Golf (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -6681,15 +6343,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00797",
     "Title": "R4 - Ridge Racer Type 4 (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00797",
-    "Title": "Ridge Racer Bonus Turbo Mode Disc (USA)",
+    "TitleVariations": [
+      "Ridge Racer Bonus Turbo Mode Disc (USA)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -7023,15 +6679,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00842",
     "Title": "Driver - You Are the Wheelman (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00842",
-    "Title": "Driver - You Are the Wheelman (USA) (v1.1)",
+    "TitleVariations": [
+      "Driver - You Are the Wheelman (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -7293,33 +6943,11 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00879",
     "Title": "Final Fantasy Anthology - Final Fantasy V (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00879",
-    "Title": "Final Fantasy Anthology - Final Fantasy V (USA) (v1.1)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00879",
-    "Title": "Final Fantasy Anthology - Final Fantasy VI (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00879",
-    "Title": "Final Fantasy Anthology - Final Fantasy VI (USA) (v1.1)",
+    "TitleVariations": [
+      "Final Fantasy Anthology - Final Fantasy V (USA) (v1.1)",
+      "Final Fantasy Anthology - Final Fantasy VI (USA) (v1.0)",
+      "Final Fantasy Anthology - Final Fantasy VI (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -7374,15 +7002,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00885",
     "Title": "Tomb Raider - The Last Revelation (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00885",
-    "Title": "Tomb Raider - The Last Revelation (USA) (v1.1)",
+    "TitleVariations": [
+      "Tomb Raider - The Last Revelation (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -7599,15 +7221,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00922",
     "Title": "Dino Crisis (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00922",
-    "Title": "Dino Crisis (USA) (v1.1)",
+    "TitleVariations": [
+      "Dino Crisis (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -7698,15 +7314,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-00932",
     "Title": "NCAA Football 2000 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-00932",
-    "Title": "NCAA Football 2000 (USA) (v1.1)",
+    "TitleVariations": [
+      "NCAA Football 2000 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -8328,15 +7938,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01018",
     "Title": "Ms. Pac-Man Maze Madness (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01018",
-    "Title": "Ms. Pac-Man Maze Madness (USA) (v1.1)",
+    "TitleVariations": [
+      "Ms. Pac-Man Maze Madness (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -8751,15 +8355,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01071",
     "Title": "Lunar 2 - Eternal Blue Complete (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01071",
-    "Title": "Lunar 2 - Eternal Blue Complete (USA) (The Making of)",
+    "TitleVariations": [
+      "Lunar 2 - Eternal Blue Complete (USA) (The Making of)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -9228,15 +8826,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01142",
     "Title": "Strider (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01142",
-    "Title": "Strider 2 (USA)",
+    "TitleVariations": [
+      "Strider 2 (USA)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -9354,15 +8946,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01158",
     "Title": "Persona 2 - Eternal Punishment (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01158",
-    "Title": "Persona 2 - Eternal Punishment (USA) (Bonus Disc)",
+    "TitleVariations": [
+      "Persona 2 - Eternal Punishment (USA) (Bonus Disc)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -9390,15 +8976,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01161",
     "Title": "Driver 2 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01161",
-    "Title": "Driver 2 (USA) (v1.1)",
+    "TitleVariations": [
+      "Driver 2 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -9768,15 +9348,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01210",
     "Title": "Disney Presents Tigger's Honey Hunt (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01210",
-    "Title": "Disney Presents Tigger's Honey Hunt (USA) (v1.1)",
+    "TitleVariations": [
+      "Disney Presents Tigger's Honey Hunt (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -9876,42 +9450,12 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01224",
     "Title": "Arc the Lad Collection - Arc Arena - Monster Tournament (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01224",
-    "Title": "Arc the Lad Collection - Arc the Lad (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01224",
-    "Title": "Arc the Lad Collection - Arc the Lad II (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01224",
-    "Title": "Arc the Lad Collection - Arc the Lad III (USA)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01224",
-    "Title": "Arc the Lad Collection - The Making of Arc the Lad (USA)",
+    "TitleVariations": [
+      "Arc the Lad Collection - Arc the Lad (USA)",
+      "Arc the Lad Collection - Arc the Lad II (USA)",
+      "Arc the Lad Collection - Arc the Lad III (USA)",
+      "Arc the Lad Collection - The Making of Arc the Lad (USA)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -10128,15 +9672,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01251",
     "Title": "Final Fantasy IX (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01251",
-    "Title": "Final Fantasy IX (USA) (v1.1)",
+    "TitleVariations": [
+      "Final Fantasy IX (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -10218,15 +9756,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01266",
     "Title": "Fear Effect 2 - Retro Helix (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01266",
-    "Title": "Fear Effect 2 - Retro Helix (USA) (v1.1)",
+    "TitleVariations": [
+      "Fear Effect 2 - Retro Helix (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -10857,33 +10389,11 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01360",
     "Title": "Final Fantasy Chronicles - Chrono Trigger (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01360",
-    "Title": "Final Fantasy Chronicles - Chrono Trigger (USA) (v1.1)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01360",
-    "Title": "Final Fantasy Chronicles - Final Fantasy IV (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01360",
-    "Title": "Final Fantasy Chronicles - Final Fantasy IV (USA) (v1.1)",
+    "TitleVariations": [
+      "Final Fantasy Chronicles - Chrono Trigger (USA) (v1.1)",
+      "Final Fantasy Chronicles - Final Fantasy IV (USA) (v1.0)",
+      "Final Fantasy Chronicles - Final Fantasy IV (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
@@ -11118,15 +10628,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01395",
     "Title": "Mega Man X6 (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01395",
-    "Title": "Mega Man X6 (USA) (v1.1)",
+    "TitleVariations": [
+      "Mega Man X6 (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -12063,15 +11567,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01534",
     "Title": "Inuyasha - A Feudal Fairy Tale (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01534",
-    "Title": "Inuyasha - A Feudal Fairy Tale (USA) (v1.1)",
+    "TitleVariations": [
+      "Inuyasha - A Feudal Fairy Tale (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -12099,15 +11597,9 @@
     "Region": "NTSC-U",
     "SerialCode": "SLUS-01541",
     "Title": "Final Fantasy Origins (USA) (v1.0)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "NTSC-U",
-    "SerialCode": "SLUS-01541",
-    "Title": "Final Fantasy Origins (USA) (v1.1)",
+    "TitleVariations": [
+      "Final Fantasy Origins (USA) (v1.1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -12749,33 +12241,11 @@
     "Region": "PAL",
     "SerialCode": "SLES-01881",
     "Title": "Capcom Generations (Europe) (Disc 1) (Wings of Destiny)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "PAL",
-    "SerialCode": "SLES-01881",
-    "Title": "Capcom Generations (Europe) (Disc 2) (Chronicles of Arthur)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "PAL",
-    "SerialCode": "SLES-01881",
-    "Title": "Capcom Generations (Europe) (Disc 3) (The First Generation)",
-    "FeatureSupport": {
-      "AnalogSupport": 2,
-      "RumbleSupport": 2
-    }
-  },
-  {
-    "Region": "PAL",
-    "SerialCode": "SLES-01881",
-    "Title": "Capcom Generations (Europe) (Disc 4) (Blazing Guns)",
+    "TitleVariations": [
+      "Capcom Generations (Europe) (Disc 2) (Chronicles of Arthur)",
+      "Capcom Generations (Europe) (Disc 3) (The First Generation)",
+      "Capcom Generations (Europe) (Disc 4) (Blazing Guns)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 2,
       "RumbleSupport": 2
@@ -12866,15 +12336,9 @@
     "Region": "PAL",
     "SerialCode": "SLES-02964",
     "Title": "Magical Drop III (Europe) (En,Fr,De,Es,It,Nl) (Disc 1) (Magical Drop III)",
-    "FeatureSupport": {
-      "AnalogSupport": 1,
-      "RumbleSupport": 1
-    }
-  },
-  {
-    "Region": "PAL",
-    "SerialCode": "SLES-02964",
-    "Title": "Magical Drop III (Europe) (En,Fr,De,Es,It,Nl) (Disc 2) (Magical Drop +1)",
+    "TitleVariations": [
+      "Magical Drop III (Europe) (En,Fr,De,Es,It,Nl) (Disc 2) (Magical Drop +1)"
+    ],
     "FeatureSupport": {
       "AnalogSupport": 1,
       "RumbleSupport": 1
