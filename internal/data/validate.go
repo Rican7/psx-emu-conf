@@ -6,6 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"regexp"
+	"sort"
 
 	"github.com/Rican7/psx-emu-conf/internal/data/normalize"
 )
@@ -31,7 +32,7 @@ var (
 func (a *App) Normalize() {
 	title, titleVariations := normalize.Title(a.Title)
 
-	var titleVariationsSet map[string]struct{}
+	titleVariationsSet := make(map[string]struct{})
 	var normalizedTitleVariations []string
 	for _, titleVariation := range append(a.TitleVariations, titleVariations...) {
 		if _, ok := titleVariationsSet[titleVariation]; !ok {
@@ -39,11 +40,23 @@ func (a *App) Normalize() {
 			normalizedTitleVariations = append(normalizedTitleVariations, titleVariation)
 		}
 	}
+	sort.Strings(normalizedTitleVariations)
+
+	discNamesSet := make(map[string]struct{})
+	var normalizedDiscNames []string
+	for _, discName := range a.DiscNames {
+		if _, ok := discNamesSet[discName]; !ok {
+			discNamesSet[discName] = struct{}{}
+			normalizedDiscNames = append(normalizedDiscNames, discName)
+		}
+	}
+	sort.Strings(normalizedDiscNames)
 
 	a.Region = Region(normalize.Region(string(a.Region)))
 	a.SerialCode = normalize.SerialCode(a.SerialCode)
 	a.Title = title
 	a.TitleVariations = normalizedTitleVariations
+	a.DiscNames = normalizedDiscNames
 }
 
 // Validate performs validations and returns an error if the data isn't valid.
