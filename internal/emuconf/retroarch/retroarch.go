@@ -50,6 +50,22 @@ func (c *core) Path(app data.App) string {
 	return pathForGameCoreOptionFile(c.internalName, app)
 }
 
+func (c *core) AlternativePaths(app data.App) []string {
+	return altPathsForGameCoreOptionFile(c.internalName, app)
+}
+
 func pathForGameCoreOptionFile(coreName string, app data.App) string {
 	return path.Join(coreName, app.Title+ExtensionPerGameCoreOption)
+}
+
+func altPathsForGameCoreOptionFile(coreName string, app data.App) []string {
+	var altPaths []string
+
+	for _, titleVariation := range app.TitleVariations {
+		altPath := path.Join(coreName, titleVariation+ExtensionPerGameCoreOption)
+
+		altPaths = append(altPaths, altPath)
+	}
+
+	return altPaths
 }

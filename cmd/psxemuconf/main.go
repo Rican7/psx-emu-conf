@@ -65,35 +65,47 @@ func main() {
 
 	for _, app := range apps {
 		for _, configurator := range configurators {
-			filePath, err := buildConfigPath(app, configurator)
+			var configFilePaths []string
+
+			mainConfigFilePath, err := buildConfigPath(app, configurator)
 			if err != nil {
 				fmt.Println(err)
 				continue
 			}
 
-			filePath = filepath.Join(defaultPathToConfigFiles, filePath)
-			fileDir := filepath.Dir(filePath)
+			configFilePaths = append(configFilePaths, mainConfigFilePath)
 
-			err = os.MkdirAll(fileDir, 0777)
-			if err != nil {
-				fmt.Println(err)
-				continue
+			if altLocator, ok := configurator.(emuconf.AlternativesLocator); ok {
+				altConfigFilePaths := buildAltConfigPaths(app, altLocator)
+
+				configFilePaths = append(configFilePaths, altConfigFilePaths...)
 			}
 
-			file, err := os.Create(filePath)
-			if err != nil {
-				fmt.Println(err)
-				continue
+			for _, configFilePath := range configFilePaths {
+				configFilePath = filepath.Join(defaultPathToConfigFiles, configFilePath)
+				configFileDir := filepath.Dir(configFilePath)
+
+				err = os.MkdirAll(configFileDir, 0777)
+				if err != nil {
+					fmt.Println(err)
+					continue
+				}
+
+				file, err := os.Create(configFilePath)
+				if err != nil {
+					fmt.Println(err)
+					continue
+				}
+
+				defer file.Close()
+
+				err = configurator.Configure(file, app)
+				if err != nil {
+					fmt.Println(err)
+				}
+
+				file.Close()
 			}
-
-			defer file.Close()
-
-			err = configurator.Configure(file, app)
-			if err != nil {
-				fmt.Println(err)
-			}
-
-			file.Close()
 		}
 	}
 }
@@ -122,4 +134,22 @@ func buildConfigPath(app data.App, configurator emuconf.Configurator) (string, e
 	}
 
 	return confPath, nil
+}
+
+func buildAltConfigPaths(app data.App, altLocator emuconf.AlternativesLocator) []string {
+	var altConfPaths []string
+
+	for _, altConfPath := range altLocator.AlternativePaths(app) {
+		altConfPath = filepath.Clean(altConfPath)
+
+		base := filepath.Base(altConfPath)
+		if base == "" || base == "." || base == string(filepath.Separator) {
+			// Output the error, but ignore this path, as its invalid
+			fmt.Println("incomplete alt file path")
+		}
+
+		altConfPaths = append(altConfPaths, altConfPath)
+	}
+
+	return altConfPaths
 }

@@ -15,6 +15,12 @@ type Locator interface {
 	Path(app data.App) string
 }
 
+// AlternativesLocator defines an interface for emulation configurators that can
+// determine alternative paths for a given app.
+type AlternativesLocator interface {
+	AlternativePaths(app data.App) []string
+}
+
 // Configurator defines a common interface for emulation configurators that are
 // capable of configuring an emulator for a given app.
 type Configurator interface {
